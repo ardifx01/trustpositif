@@ -1,0 +1,164 @@
+;###########################################################################################
+;
+; FILE GENERATED ON  : 23-Dec-25
+; VERSION            : 2025122387
+; SYNTAX             : RPZ
+; AUTHORS            : HARRY DERTIN SUTISNA ALSYUNDAWY
+; CONTACT            : alsyundawy@gmail.com, +628568515212 (WHATSAPP/TELEGRAM/CALL)
+; HOMEPAGE           : https://github.com/alsyundawy
+;
+;###########################################################################################
+
+$TTL 7200
+@ IN SOA dns.alsyundawy.com. hostmaster.alsyundawy.com. (
+    2025122387  ; Serial
+    600         ; Refresh
+    300         ; Retry
+    43200       ; Expire
+    600         ; Negative Cache TTL
+)
+
+@ IN NS lamanlabuh.resolver.id.
+
+; ==============================================================================
+; WHITELIST TLD
+; Sumber: IANA Data 2025122200
+; ==============================================================================
+
+shopee.co.id            IN CNAME    rpz-passthru.
+*.shopee.co.id          IN CNAME    rpz-passthru.
+shopee.com              IN CNAME    rpz-passthru.
+*.shopee.com            IN CNAME    rpz-passthru.
+shp.ee                  IN CNAME    rpz-passthru.
+*.shp.ee                IN CNAME    rpz-passthru.
+shope.ee                IN CNAME    rpz-passthru.
+*.shope.ee              IN CNAME    rpz-passthru.
+s.shopee.co.id          IN CNAME    rpz-passthru.
+*.s.shopee.co.id        IN CNAME    rpz-passthru.
+shopee.link             IN CNAME    rpz-passthru.
+*.shopee.link           IN CNAME    rpz-passthru.
+shopeemobile.com        IN CNAME    rpz-passthru.
+*.shopeemobile.com      IN CNAME    rpz-passthru.
+shopeemobile.net        IN CNAME    rpz-passthru.
+*.shopeemobile.net      IN CNAME    rpz-passthru.
+shopee.io               IN CNAME    rpz-passthru.
+*.shopee.io             IN CNAME    rpz-passthru.
+spx.co.id               IN CNAME    rpz-passthru.
+*.spx.co.id             IN CNAME    rpz-passthru.
+tokopedia.com           IN CNAME    rpz-passthru.
+*.tokopedia.com         IN CNAME    rpz-passthru.
+tokopedia.link          IN CNAME    rpz-passthru.
+*.tokopedia.link        IN CNAME    rpz-passthru.
+tkp.me                  IN CNAME    rpz-passthru.
+*.tkp.me                IN CNAME    rpz-passthru.
+tokopedia.by            IN CNAME    rpz-passthru.
+*.tokopedia.by          IN CNAME    rpz-passthru.
+tokopedia.net           IN CNAME    rpz-passthru.
+*.tokopedia.net         IN CNAME    rpz-passthru.
+ecs7.tokopedia.net      IN CNAME    rpz-passthru.
+*.ecs7.tokopedia.net    IN CNAME    rpz-passthru.
+api.tokopedia.com       IN CNAME    rpz-passthru.
+*.api.tokopedia.com     IN CNAME    rpz-passthru.
+app.link                IN CNAME    rpz-passthru.
+*.app.link              IN CNAME    rpz-passthru.
+page.link               IN CNAME    rpz-passthru.
+*.page.link             IN CNAME    rpz-passthru.
+wa.link                 IN CNAME    rpz-passthru.
+*.wa.link               IN CNAME    rpz-passthru.
+api.whatsapp.com        IN CNAME    rpz-passthru.
+adjust.com              IN CNAME    rpz-passthru.
+*.adjust.com            IN CNAME    rpz-passthru.
+appsflyer.com           IN CNAME    rpz-passthru.
+*.appsflyer.com         IN CNAME    rpz-passthru.
+
+; ==============================================================================
+; BLACKLIST TLD
+; Sumber: IANA Data 2025122200
+; ==============================================================================
+
+*.xxx                   IN CNAME    lamanlabuh.resolver.id.
+*.porn                  IN CNAME    lamanlabuh.resolver.id.
+*.adult                 IN CNAME    lamanlabuh.resolver.id.
+*.bj                    IN CNAME    lamanlabuh.resolver.id.
+*.sex                   IN CNAME    lamanlabuh.resolver.id.
+*.sexy                  IN CNAME    lamanlabuh.resolver.id.
+*.webcam                IN CNAME    lamanlabuh.resolver.id.
+*.tube                  IN CNAME    lamanlabuh.resolver.id.
+*.cam                   IN CNAME    lamanlabuh.resolver.id.
+*.dating                IN CNAME    lamanlabuh.resolver.id.
+*.lgbt                  IN CNAME    lamanlabuh.resolver.id.
+*.gay                   IN CNAME    lamanlabuh.resolver.id.
+*.queer                 IN CNAME    lamanlabuh.resolver.id.
+*.bet                   IN CNAME    lamanlabuh.resolver.id.
+*.casino                IN CNAME    lamanlabuh.resolver.id.
+*.poker                 IN CNAME    lamanlabuh.resolver.id.
+*.bingo                 IN CNAME    lamanlabuh.resolver.id.
+*.lotto                 IN CNAME    lamanlabuh.resolver.id.
+*.juegos                IN CNAME    lamanlabuh.resolver.id.
+*.vegas                 IN CNAME    lamanlabuh.resolver.id.
+*.win                   IN CNAME    lamanlabuh.resolver.id.
+*.top                   IN CNAME    lamanlabuh.resolver.id.
+*.site                  IN CNAME    lamanlabuh.resolver.id.
+*.online                IN CNAME    lamanlabuh.resolver.id.
+*.club                  IN CNAME    lamanlabuh.resolver.id.
+*.vip                   IN CNAME    lamanlabuh.resolver.id.
+*.link                  IN CNAME    lamanlabuh.resolver.id.
+*.asia                  IN CNAME    lamanlabuh.resolver.id.
+*.fun                   IN CNAME    lamanlabuh.resolver.id.
+*.live                  IN CNAME    lamanlabuh.resolver.id.
+*.mobi                  IN CNAME    lamanlabuh.resolver.id.
+*.pro                   IN CNAME    lamanlabuh.resolver.id.
+*.gdn                   IN CNAME    lamanlabuh.resolver.id.
+*.work                  IN CNAME    lamanlabuh.resolver.id.
+*.click                 IN CNAME    lamanlabuh.resolver.id.
+*.buzz                  IN CNAME    lamanlabuh.resolver.id.
+*.review                IN CNAME    lamanlabuh.resolver.id.
+*.monster               IN CNAME    lamanlabuh.resolver.id.
+*.kim                   IN CNAME    lamanlabuh.resolver.id.
+*.zip                   IN CNAME    lamanlabuh.resolver.id.
+*.mov                   IN CNAME    lamanlabuh.resolver.id.
+*.download              IN CNAME    lamanlabuh.resolver.id.
+*.best                  IN CNAME    lamanlabuh.resolver.id.
+*.icu                   IN CNAME    lamanlabuh.resolver.id.
+*.br                    IN CNAME    lamanlabuh.resolver.id.
+*.za                    IN CNAME    lamanlabuh.resolver.id.
+*.cfd                   IN CNAME    lamanlabuh.resolver.id.
+*.sbs                   IN CNAME    lamanlabuh.resolver.id.
+*.voto                  IN CNAME    lamanlabuh.resolver.id.
+*.wang                  IN CNAME    lamanlabuh.resolver.id.
+*.wedding               IN CNAME    lamanlabuh.resolver.id.
+*.xin                   IN CNAME    lamanlabuh.resolver.id.
+*.xx.kg                 IN CNAME    lamanlabuh.resolver.id.
+*.trading               IN CNAME    lamanlabuh.resolver.id.
+*.us.kg                 IN CNAME    lamanlabuh.resolver.id.
+*.okinawa               IN CNAME    lamanlabuh.resolver.id.
+*.ong                   IN CNAME    lamanlabuh.resolver.id.
+*.love                  IN CNAME    lamanlabuh.resolver.id.
+*.luxe                  IN CNAME    lamanlabuh.resolver.id.
+*.lat                   IN CNAME    lamanlabuh.resolver.id.
+*.hot                   IN CNAME    lamanlabuh.resolver.id.
+*.diy                   IN CNAME    lamanlabuh.resolver.id.
+*.dpdns.org             IN CNAME    lamanlabuh.resolver.id.
+*.edu.eu                IN CNAME    lamanlabuh.resolver.id.
+*.engineer              IN CNAME    lamanlabuh.resolver.id.
+*.enterprises           IN CNAME    lamanlabuh.resolver.id.
+*.esq                   IN CNAME    lamanlabuh.resolver.id.
+*.beer                  IN CNAME    lamanlabuh.resolver.id.
+*.bid                   IN CNAME    lamanlabuh.resolver.id.
+*.black                 IN CNAME    lamanlabuh.resolver.id.
+*.blue                  IN CNAME    lamanlabuh.resolver.id.
+*.boats                 IN CNAME    lamanlabuh.resolver.id.
+*.bond                  IN CNAME    lamanlabuh.resolver.id.
+*.llp                   IN CNAME    lamanlabuh.resolver.id.
+*.loan                  IN CNAME    lamanlabuh.resolver.id.
+*.loans                 IN CNAME    lamanlabuh.resolver.id.
+*.locker                IN CNAME    lamanlabuh.resolver.id.
+*.london                IN CNAME    lamanlabuh.resolver.id.
+*.pink                  IN CNAME    lamanlabuh.resolver.id.
+*.qzz.io                IN CNAME    lamanlabuh.resolver.id.
+*.tax                   IN CNAME    lamanlabuh.resolver.id.
+*.taxi                  IN CNAME    lamanlabuh.resolver.id.
+*.za.com                IN CNAME    lamanlabuh.resolver.id.
+*.sa.com                IN CNAME    lamanlabuh.resolver.id.
+*.mom                   IN CNAME    lamanlabuh.resolver.id.
+*.promo                 IN CNAME    lamanlabuh.resolver.id.
