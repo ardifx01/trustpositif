@@ -2,7 +2,7 @@
 
 ![Kominfo](/asset/komdigi.png) ![Aduan Content](/asset/aduan_content.png) ![Bind9](/asset/Bind_9_ISC.png) ![Unbound](/asset/Unbound.png)
 
-## **Sebagai Bentuk Dukungan Terhadap Program "Internet Sehat" Milik Pemerintah Negara Kesatuan Republik Indonesia**
+## **Blocklist untuk memblokir situs Judol, 18+, phishing, dan konten negatif lainnya demi keamanan jaringan.**
 
 [![Latest Version](https://img.shields.io/github/v/release/alsyundawy/TrustPositif)](https://github.com/alsyundawy/TrustPositif/releases)
 [![Maintenance Status](https://img.shields.io/maintenance/yes/9999)](https://github.com/alsyundawy/TrustPositif/)
